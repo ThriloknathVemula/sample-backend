@@ -12,3 +12,4 @@ app.get('/random-num', (req, res)=>{
     return res.json({randomNum:random})
 })
 
+app.listen(3000);
